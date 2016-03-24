@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Scan your  Docs!"
+            android:id="@+id/ScanText"
+            android:textColor="#FF000000"
+            android:textSize="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:hint="Имя"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/name"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FF000000"
+            android:textSize="25dp"
+            android:textColorHint="#FF000000"
+            android:textColorHighlight="#FF000000" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:hint="e-mail"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/email"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24dp"
+            android:textColor="#FF000000"
+            android:textColorHint="#FF000000"
+            android:textColorLink="#FF000000"
+            android:singleLine="false" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Готово"
+        android:id="@+id/readyButton"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:background="#00ffffff"
+        android:textColor="#FF000000" />
+
+</RelativeLayout>
