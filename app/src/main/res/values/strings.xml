@@ -11,4 +11,12 @@
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_scan_docs">ScanDocs</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="pdf_hint">Enter text to be PDF\'d</string>
+    <string name="pdf_go">Save And Share</string>
 </resources>
